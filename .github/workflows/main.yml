@@ -12,4 +12,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "login to docker "
-        run: login docker --username nadaadel19 --password dckr_pat_HSEfUFd1fcUFGrYRvq8gCdpc6Hk 
+        run: docker login --username nadaadel19 --password dckr_pat_HSEfUFd1fcUFGrYRvq8gCdpc6Hk 
