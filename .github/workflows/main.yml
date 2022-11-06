@@ -9,10 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "befor listing files"
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: "after listing files"
-        run: ls
+      - name: "login to docker"
+        run: login docker --username nadaadel19 --password dckr_pat_HSEfUFd1fcUFGrYRvq8gCdpc6Hk 
